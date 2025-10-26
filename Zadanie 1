@@ -1,0 +1,26 @@
+Dane wejściowe:
+Wielkość pliku: 1 GB
+Przepustowość: 10 Mb/s
+
+Sposób obliczenia:
+Przyjęcie spójnych jednostek (bity)
+1 GB = 858934592 b
+10Mb/s = 10000000 b/s
+
+ 858934592 / 10000000 = 858.99 s
+
+858.99 s = (około) 14min 19 s
+
+Korekta o narzut protokołów i retransmisje:
+Narzut protokołów = 4%
+Retransmisje = 1%
+
+858. 99 s * (1 + 0.05) = 858.99 * 1.05 =(około) 901.94 s = 15 min 1.94 s
+
+
+Uzyskane wyniki:
+Wynik bez korekty = 14 min 19 s
+Wynik po korekcie = 15 min 1.94 s
+
+Wnioski:
+Po korekcie czas pobrania danych zwiększył się o prawie minutę.
