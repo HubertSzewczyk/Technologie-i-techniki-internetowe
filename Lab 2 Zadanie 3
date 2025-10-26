@@ -1,0 +1,5 @@
+1.	Czym jest pamięć podręczna DNS?
+Pamięć DNS jest to tymczasowa baza danych przechowywana lokalnie na komputerze lub w serwerze DNS, w której zapisywane są wyniki zapytań DNS (odwiedzone strony internetowe).
+
+2.	Dlaczego komputer przechowuje odwiedzone adresy?
+Komputer przechowuje odwiedzone adresy IP w pamięci podręcznej w celu przyspieszenia przyszłych połączeń i zmniejszyć obciążenie sieci.
