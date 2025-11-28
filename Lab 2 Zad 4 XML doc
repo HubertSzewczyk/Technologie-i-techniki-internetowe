@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<filmoteka
-  <film id="1">
-    <tytul>Skazani na shawshank</tytul>
-    <rezyser>Frank Darabont</rezyser>
-    <rok_wydania>1994</rok_wydania>
-    <gatunek>dramat</gatunek>
-    <ocena>8,8</ocena>
-  </ksiazka>
-  <ksiazka id="2">
-    <tytul>Zielona mila</tytul>
-    <rezyser>Frank Darabont</rezyser>
-    <rok_wydania>1999</rok_wydania>
-    <gatunek>dramat</gatunek>
-    <ocena>8,6</ocena>
-  </ksiazka>
-</filmoteka>
+<dane>
+  <osoba id="1">
+    <imie>Jan</imie>
+    <nazwisko>Kowalski</nazwisko>
+    <plec>mezczyzna</plec>
+    <rok_urodzenia>1999</rok_urodzenia>
+  </osoba>
+  <osoba id="2">
+    <imie>Ewelina</imie>
+    <nazwisko>Dobrowolska</nazwisko>
+    <plec>kobieta</plec>
+    <rok_urodzenia>2001</rok_urodzenia>
+  </osoba>
+</dane>
