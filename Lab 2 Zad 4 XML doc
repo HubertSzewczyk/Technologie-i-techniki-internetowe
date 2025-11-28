@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteka>
+  <film id="1">
+    <tytul>Skazani na shawshank</tytul>
+    <rezyser>Frank Darabont</rezyser>
+    <rok_wydania>1994</rok_wydania>
+    <gatunek>dramat</gatunek>
+    <ocena>8,8</ocena>
+  </ksiazka>
+  <ksiazka id="2">
+    <tytul>Zielona mila</tytul>
+    <rezyser>Frank Darabont</rezyser>
+    <rok_wydania>1999</rok_wydania>
+    <gatunek>dramat</gatunek>
+    <ocena>8,6</ocena>
+  </ksiazka>
+</biblioteka>
