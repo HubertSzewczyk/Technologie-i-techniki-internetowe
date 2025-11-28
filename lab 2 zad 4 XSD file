@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="filmoteka">
+  <xs:element name="dane">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="film" maxOccurs="unbounded">
+        <xs:element name="osoba" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="tytul" type="xs:string"/>
-              <xs:element name="autor" type="xs:string"/>
-              <xs:element name="rok_wydania" type="xs:integer"/>
-              <xs:element name="gatunek" type="xs:string"/>
-              <xs:element name="ocena" type="xs:integer"/>
+              <xs:element name="imie" type="xs:string"/>
+              <xs:element name="nazwisko" type="xs:string"/>
+              <xs:element name="plec" type="xs:string"/>
+              <xs:element name="rok_urodzenia" type="xs:string"/>
             </xs:sequence>
           <xs:attribute name="id" type="xs:integer" use="required"/>
         </xs:complexType>
