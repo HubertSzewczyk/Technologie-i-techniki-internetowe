@@ -1,8 +1,7 @@
-<!ELEMENT filmoteka (ksiazka+)>
-<!ELEMENT film (tytul, rezyser, rok_wydania, gatunek, ocena)>
-<!ATTLIST film id ID #REQUIRED>
-<!ELEMENT tytul (#PCDATA)>
-<!ELEMENT rezyser (#PCDATA)>
-<!ELEMENT rok_wydania (#PCDATA)>
-<!ELEMENT gatunek (#PCDATA)>
-<!ELEMENT ocena (#PCDATA)>
+<!ELEMENT dane (osoba+)>
+<!ELEMENT osoba (imie, nazwisko, plec, rok_urodzenia)>
+<!ATTLIST osoba id ID #REQUIRED>
+<!ELEMENT imie (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ELEMENT plec (#PCDATA)>
+<!ELEMENT rok_urodzenia (#PCDATA)>
