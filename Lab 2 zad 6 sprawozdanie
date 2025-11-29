@@ -1,0 +1,6 @@
+1. Parametry w metodzie GET znajdują się w adresie URL (Uniform Resource Locator), w części zwanej ciągiem zapytania (query string).
+2. Nie, same parametry przesyłane w adresie URL nie są szyfrowane. Są one widoczne w postaci czystego tekstu w adresie przeglądarki, logach serwera, historii przeglądania i mogą być łatwo przechwycone.
+3. Główna różnica polega na tym, gdzie dane są pakowane w żądaniu HTTP:
+    -GET przesyła dane w adresie URL (w ciągu zapytania/query string), przez co są one widoczne i mają ograniczenie rozmiaru.
+
+    -POST przesyła dane w ciele żądania (request body), przez co nie są one widoczne w adresie URL i praktycznie nie mają limitu rozmiaru.
