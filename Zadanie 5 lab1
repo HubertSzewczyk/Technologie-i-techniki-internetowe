@@ -1,0 +1,24 @@
+Domena:
+
+1. wwww.onet.pl
+
+Za pomocą ICMP tracert:
+połączenie sie z serwerem zajmuje 13 skoków
+czas przeskoków to około 14 sekund
+
+Za pomocą traceroute-online.com:
+wykonano 14 skoków
+ping kończy się na serwerze w USA
+
+2. wwww.nasa.com
+
+Za pomocą ICMP tracert:
+wykonywane jest 21 skoków
+czas przeskoków to około 41 sekund
+
+Za pomocą tracerout-online:
+wykonywane jest 13 skoów
+ping przechodzi przez serwery w USA i kończy się w Kanadzie
+
+3. www.goggle.com
+ani tracerout-online, ani ICMP tracert nie jest w stanie nawiązać połączenia
