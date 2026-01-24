@@ -1,0 +1,13 @@
+A) Adresy IP
+1. IP: 172.217.168.206  MAC: 20-83-f8-12-60-d9
+2. IP: 104.26.14.226 MAC:74-56-3c-d5-de-c3
+3. IP: 52.123.129.14 MAC: 10-ff-e0-63-5e-de
+
+Co jest istotne w tej informacji?
+B) Najważniejszym spostrzeżeniem jest to, że o ile adresy IP (celowe) są unikalne dla każdej z trzech stron internetowych, o tyle adres MAC urządzenia docelowego będzie dla wszystkich trzech taki sam.
+
+Czym różni się ta informacja od informacji uzyskanej w części 2 (sieć lokalna)?
+C) W sieci lokalnej Wireshark widzi faktyczny adres MAC karty sieciowej drugiego komputera. W przypadku hostów zdalnych (internetowych), Wireshark nie widzi adresu MAC serwera Google czy Facebooka, lecz adres MAC Twojego routera (bramy domyślnej).
+
+Dlaczego Wireshark pokazuje aktualny MAC dla hostów lokalnych, ale nie dla zdalnych?
+Adresy MAC są używane wyłącznie do komunikacji wewnątrz tej samej sieci lokalnej (warstwa 2). Kiedy pakiet opuszcza Twoją sieć i idzie do internetu, przechodzi przez router. Router "zdejmuje" starą ramkę z Twoim adresem MAC i tworzy nową, aby przesłać dane dalej.
